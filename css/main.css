@@ -238,14 +238,21 @@ footer .contact {
 
 footer .social-icons {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  padding-top: 20px;
 }
 
 footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+footer .social-icons i {
+  background-color: #2a423a;
+  padding: 0.5em;
+  border-radius: 100%;
 }
 
 footer .copyright {
@@ -664,6 +671,11 @@ h3 {
 
   footer p {
       line-height: 1.285;
+  }
+
+  .social .social-icons {
+    width: 200px;
+    padding: 0;
   }
 
   footer .copyright {
