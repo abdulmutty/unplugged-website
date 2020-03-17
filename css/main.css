@@ -314,6 +314,9 @@ input[type=button] {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background: url("../img/rawpixel.png") center no-repeat #333;
+  background-size: cover;
+  min-height: 800px;
 }
 
 .features h2 {
@@ -335,6 +338,11 @@ input[type=button] {
 .features p {
   text-align: center;
   margin: 0;
+}
+
+.features i {
+	font-size: 3.75em;
+  margin-bottom: 40px;
 }
 
 /* Reviews */
@@ -677,6 +685,10 @@ h3 {
     width: 45%;
   }
 
+  .map figure {
+    padding-bottom: 44%;
+  }
+
   .contact-section .content-wrapper h2 {
     width: 80%;
   }
@@ -786,6 +798,10 @@ h3 {
   .contact-section .content-wrapper h2 {
       width: 95%;
       font-size: 3em;
+  }
+
+  .map figure {
+    padding-bottom: 44%;
   }
 
   .contact-content h4 {
